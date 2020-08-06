@@ -3,7 +3,14 @@ layout: page
 title: About Me
 permalink: /about/
 ---
-![]({{site.baseurl}}/images/profile.png){: width=50 height=75 style="float:right; padding:16px"}
+![]({{site.baseurl}}/images/profile.png# thumbnail bordered)
+img[src~="thumbnail"] {
+   width:150px;
+   height:100px;
+}
+img[src~="bordered"] {
+   border: 1px solid black;
+}
 
 
 ## M J Niegil Francis
