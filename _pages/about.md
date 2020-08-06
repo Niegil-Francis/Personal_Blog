@@ -4,10 +4,7 @@ title: About Me
 permalink: /about/
 ---
 
-This is where you put the contents of your *About* page. Like all your pages, it's in [Markdown](https://guides.github.com/features/mastering-markdown/) format.
+![]({{site.baseurl}}/images/profile_new.png) 
 
-This website is powered by **[fastpages](https://github.com/fastai/fastpages)** [^1].
+### An avid cyclist and music enthusiast. I like spending most of my time finding things that tickle the farthest corners of my mind and meeting new people who make me reconsider my views on life. Hope you enjoy my take on the wide variety of topics I intend to cover in these blogs!  
 
-
-
-[^1]:a blogging platform that natively supports Jupyter notebooks in addition to other formats.
