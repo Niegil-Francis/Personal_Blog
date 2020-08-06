@@ -4,7 +4,6 @@ title: About Me
 permalink: /about/
 ---
 
-<!DOCTYPE html>
 <html>
   <body>
     <h1>M J Niegil Francis</h1>
