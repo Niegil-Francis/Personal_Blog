@@ -44,7 +44,7 @@ jobs:
     - name: update notebooks
       id: update_nb
       run: |
-        /_action_files/run_notebooks.sh
+        ./_action_files/run_notebooks.sh
     - name: save notebooks & images
       run: |
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
