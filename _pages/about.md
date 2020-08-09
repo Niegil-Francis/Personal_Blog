@@ -4,15 +4,11 @@ title: About Me
 permalink: /about/
 ---
 
-![]({{site.baseurl}}/images/profile_edit_1){: style="float:right;"}
+![]({{site.baseurl}}/images/profile_edit_1.png){: style="float:right;"}
 
+## M J Niegil Francis
 
-<html>
-  <body>
-    <h1>M J Niegil Francis</h1>
-    <p> An avid cyclist and music enthusiast. I like spending most of my time finding things that tickle the farthest corners of my mind and meeting new people who make me reconsider my views on life. Hope you enjoy my take on the wide variety of topics I intend to cover in these blogs! </p>   
-  </body>
-</html>
+### An avid cyclist and music enthusiast. I like spending most of my time finding things that tickle the farthest corners of my mind and meeting new people who make me reconsider my views on life. Hope you enjoy my take on the wide variety of topics I intend to cover in these blogs!
 
 
 
