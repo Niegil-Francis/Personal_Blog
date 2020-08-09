@@ -7,10 +7,9 @@ ERRORS=""
 
 for file in *.ipynb
 do
-    if [ "${file}" = "2020-07-28-Covid_Dasboard.ipynb" ]; then
-        echo "Skipping ${file}"
-    elif papermill --kernel python3 "${file}" "${file}"; then
+    if papermill --kernel python3 "${file}" "${file}"; then
         echo "Sucessfully refreshed ${file}\n\n\n\n"
+        git add "${file}"
     else
         echo "ERROR Refreshing ${file}"
         ERRORS="${ERRORS}, ${file}"
