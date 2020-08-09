@@ -1,7 +1,7 @@
 name: Update Notebooks And Refresh Page
 on:
   schedule:
-    - cron:  '0 1 * * *'
+    - cron:  '0,10,20,30,40,50  * * *'
 
 jobs:
   update-notebooks:
@@ -44,7 +44,7 @@ jobs:
     - name: update notebooks
       id: update_nb
       run: |
-        ./_action_files/run_notebooks.sh
+        ./Niegil-Francis/Personal_Blog/blob/master/_action_files/run_notebooks.sh
     - name: save notebooks & images
       run: |
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
