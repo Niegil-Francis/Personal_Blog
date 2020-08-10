@@ -21,4 +21,3 @@ scikit-learn
 sympy
 python-mnist
 requests
-jsonlib
