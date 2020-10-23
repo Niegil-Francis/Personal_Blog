@@ -4,10 +4,10 @@ cd $(dirname "$0")/..
 cd _notebooks/
 
 ERRORS=""
-
+#or ["${file}" = "2020-10-23-A-Countries-Secret-to-Happiness.ipynb"]
 for file in *.ipynb
 do
-    if [ "${file}" = "2020-08-09-neural-log-reg.ipynb" ] or ["${file}" = "2020-10-23-A-Countries-Secret-to-Happiness.ipynb"]; then
+    if [ "${file}" = "2020-08-09-neural-log-reg.ipynb" ]; then
         echo "Skipping ${file}"
     elif papermill --kernel python3 "${file}" "${file}"; then
         echo "Sucessfully refreshed ${file}\n\n\n\n"
