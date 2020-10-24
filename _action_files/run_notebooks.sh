@@ -9,8 +9,6 @@ for file in *.ipynb
 do
     if [ "${file}" = "2020-08-09-neural-log-reg.ipynb" ]; then
         echo "Skipping ${file}"
-    elif [ "${file}" = "2020-10-23-A-Countries-Secret-to-Happiness.ipynb" ]; then
-        echo "Skipping ${file}"
     elif papermill --kernel python3 "${file}" "${file}"; then
         echo "Sucessfully refreshed ${file}\n\n\n\n"
     else
