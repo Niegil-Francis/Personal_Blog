@@ -16,7 +16,7 @@ altair_saver
 jinja2
 selenium
 geopandas
-numpy==1.18.1
+numpy==1.22.0
 scikit-learn
 sympy
 python-mnist
